@@ -1,0 +1,69 @@
+body{
+	background:#666666;
+}
+
+.prescreen-button {
+    float:right;
+    text-decoration: bold;
+    text-size: 1em;
+ }
+
+/* Input area CSS */ 
+.prescreen-input{
+	border-style:none none dashed none; 
+	border-color:#ffa500; 
+	width:100%; 
+	display:block;
+	box-sizing:border-box;
+	border-width:1.5px; 
+	margin-bottom:1px;
+}
+ 
+/* If string is not palindrome, text color is blue */
+.prescreen-output{
+ 	color: blue;
+ 	font-family: Times New Roman;
+ 	font-size: 0.90em;
+}
+
+/* If string is palindrome, change text color to red */
+.prescreen-palindrome{
+	color: red;
+	font-family:Times New Roman;
+	font-size: 0.90em;
+}
+
+.button-area{
+	width:100%; 
+	box-sizing:border-box; 
+	height:35px;
+	padding:5px;
+}
+
+.container{
+	width:600px; 
+	border:1.5px solid #ffa500;
+	margin-top: 15px;
+	background: #ffffff;
+}
+
+/* Result area CSS */
+.prescreen-result{
+	border-style:none none dashed none; 
+	border-color:#ffa500; 
+	width:100%; 
+	display:block;
+	box-sizing:border-box;
+	border-width:1.5px; 
+	margin-bottom:1px;
+	background: #ffffff;
+}
+
+.area{
+	border-style:none none none none; 
+	width:100%; 
+	display:block;
+	box-sizing:border-box;
+	border-width:1.5px; 
+	background: #ffffff;
+}
